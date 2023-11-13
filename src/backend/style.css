@@ -1,11 +1,19 @@
-        @import url('https://cdn.jsdelivr.net/gh/kneedeepincode/fsex-webfont@v1.0.1/fsex300.css');
+
+@import url('https://cdn.jsdelivr.net/gh/kneedeepincode/fsex-webfont@v1.0.1/fsex300.css');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@font-face
+{
+font-family: Pixel;
+src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus10-Bold_web.woff2')
+     format("woff2");
+}
+
 
         html, body {
             padding: 0;
             margin: 0;
             background: black;
-            font-family: "Fixedsys Excelsior 3.01", 'M PLUS Rounded 1c' ,monospace;
+            font-family: "Fixedsys Excelsior 3.01", 'Pixel','M PLUS Rounded 1c' ,monospace;
             font-size: 22px;
             width: 100%;
             height: 100%;
